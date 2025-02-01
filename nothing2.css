@@ -46,7 +46,7 @@ a{
     transition: 1s;
 }
 body:hover{
-    background-image: linear-gradient(rgb(35, 31, 31),transparent) , url(images/ramadan3.jpg);
+    background-image: linear-gradient(white,transparent) , url(images/ramadan3.jpg);
     transition: 50s;
 }
 .logo{
