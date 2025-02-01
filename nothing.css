@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+*{
+    font-family: "Courgette", serif;
+    margin: 0;
+    padding: 0;
+    color:#efaeae;
+}
+body{
+    background-image: linear-gradient(rgb(19, 12, 12),#594d4d92) , url(images/ramadan3.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+header{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position:sticky;
+    top: .2px;
+    background-color: #f1f1f1;
+    border-radius: 0 0 10px 10px;
+    margin: 0px;
+}
+ul{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    
+    list-style: none;
+    
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.a2:hover{
+    text-decoration:underline;
+    color: rgb(159, 101, 101);
+    transition: 1s;
+}
+body:hover{
+    background-image: linear-gradient(rgb(35, 31, 31),transparent) , url(images/ramadan3.jpg);
+    transition: 50s;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.content{
+    padding: 200px 0 0 140px;
+    color: white;
+}
+h3,.p , button{
+    margin: 20px;
+    width: 300px;
+    font-size: 20px;
+}
+button{
+    border: 2px solid ;
+    border-radius: 5px 15px 15px 5px;
+    background-color:transparent;
+}
+button:hover{
+    border-radius: 2px 2px 20px 20px;
+    background-color: #ffffff;
+    transition: 1s;
+}
+.about{
+    padding: 130px;
+    text-align: center;
+    margin: 200px 0 0 0;
+}
+h6{
+    font-size: 30px;
+    color: white;
+    word-spacing: 3px;
+    margin-top: 20px;
+}
+p{
+    word-spacing: 1px;
+    margin: 20px 0 0 0;
+}
+
+
+
+
+/* تغيير لون شريط التمرير */
+::-webkit-scrollbar {
+    width: 3px; /* عرض الشريط */
+  }
+  
+  /* تغيير لون الخلفية للشريط */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: px;
+  }
+  
+  /* تغيير لون مقبض التمرير */
+  ::-webkit-scrollbar-thumb {
+    background: #efaeae; /* لون المقبض */
+    border-radius: px;
+  }
+  
+  /* تغيير لون المقبض عند التحويم */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #efaeae;
+  }
